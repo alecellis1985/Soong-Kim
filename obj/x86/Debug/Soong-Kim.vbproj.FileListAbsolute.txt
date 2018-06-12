@@ -1,0 +1,2 @@
+C:\Users\Pineapple-lab\Source\Repos\Soong-Kim\obj\x86\Debug\Soong-Kim.vbprojAssemblyReference.cache
+C:\Users\Pineapple-lab\Source\Repos\Soong-Kim\obj\x86\Debug\Soong-Kim.vbproj.CoreCompileInputs.cache
