@@ -96,6 +96,7 @@
     <Folder Include="My Project\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
     <Content Include="contact.html" />
     <Content Include="css\plugins.css" />
     <Content Include="css\reset.css" />
@@ -131,6 +132,7 @@
     <Content Include="js\plugins.js" />
     <Content Include="js\scripts.js" />
     <Content Include="php\contact.php" />
+    <Content Include="portfolio-single.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
   <ProjectExtensions>

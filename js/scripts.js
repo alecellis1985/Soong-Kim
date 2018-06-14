@@ -759,12 +759,15 @@ $(".close-menu").on("click", function(a) {
 });
 $(".nav-holder nav li ul").parent("li").append('<span class="nav-dec"></span>');
 $(".scroll-holder").scrollbar();
-$(".nav-holder nav li").on("mouseenter", function() {
-   $(this).find("ul").stop().slideDown();
+$(".nav-holder nav li.main").on("mouseenter", function() {
+    $(this).find("ul.main").stop().slideDown();
+    $(this).find("ul.sub").stop().slideDown();
+
 });
-$(".nav-holder nav li").on("mouseleave", function() {
-   $(this).find("ul").stop().slideUp();
+$(".nav-holder nav li.main").on("click", function() {
+    $(this).find("ul.main").stop().slideUp();
 });
+
 //  Init core ------------------
 $(function() {
     $.coretemp({
