@@ -2861,9 +2861,52 @@ article.br-post {
 .ajaxPageSwitchBacklink:hover:before {
 	width:100%;
 }
+
+.footerConstruction {
+    position: absolute;
+    z-index: 99999;
+    background: #64626a;
+    width: 100%;
+    height: 20vh;
+    text-align: center !important;
+    bottom: 0;
+}
+
+    .footerConstruction h3 {
+        text-align: center;
+    }
+
+    .footerConstruction li {
+        text-align: center;
+    }
+
+        .footerConstruction li a {
+            color: #FFFFFF;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footerConstruction li a:before {
+            display: none;
+        }
+
+    .content-holder.contruction {
+        padding: 0;
+    }
+
+.contruction .hero-title {
+    top: 41%;
+}
+.contruction .hero-title img{
+    width: 38%;
+}
+
+.contruction .trsp-btn {
+    background: #FFFFFF;
+}
 /*------  Responsive ------------------------------------------------------*/
-@media only screen and  (max-width: 1256px) {
-.blog-inner .gallery-item {
+@media only screen and (max-width: 1256px) {
+    .blog-inner .gallery-item {
 	width:50%;
 }
 .to-top {
