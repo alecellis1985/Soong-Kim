@@ -768,6 +768,10 @@ $(".nav-holder nav li.main").on("click", function() {
     $(this).find("ul.main").stop().slideUp();
 });
 
+function headerImgMax() {
+        $('#headerimg .box-item i').click();
+}
+
 //  Init core ------------------
 $(function() {
     $.coretemp({
@@ -789,3 +793,4 @@ function readyFunctions() {
     initFirenze();
     initparallax();
 }
+

@@ -133,6 +133,7 @@
     <Content Include="js\plugins.js" />
     <Content Include="js\scripts.js" />
     <Content Include="php\contact.php" />
+    <Content Include="doubleR.html" />
     <Content Include="portfolio-single.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
