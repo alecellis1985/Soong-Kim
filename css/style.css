@@ -704,7 +704,7 @@ header{
 	width:40px;
 }
     .logo-holder img {
-        width: 121px;
+        width: 50px;
         height: auto;
         float: left;
     }
@@ -766,11 +766,12 @@ header{
 .header-contacts li  {
 	padding:5px 0;
 }
-.header-contacts li a {
-	color:#999;
-	padding-left:9px;
-	position:relative;
-}
+    .header-contacts li a {
+        color: #999;
+        padding-left: 9px;
+        position: relative;
+        display: inline-block;
+    }
 .header-contacts li a:hover {
 	color:#000;
 }
@@ -781,20 +782,24 @@ header{
 	left:3px;
 	color:#000;
 }
+
+    .header-contacts span {
+        vertical-align: top
+    }
 .header-footer {
-	position:absolute;
-	bottom:0;
-	padding:14px 30px;
-	left:0;
-	width:100%;
-	border-top:1px solid #f0f0f0;
-	text-align:left;
-	font-size:10px;
-	text-transform:uppercase;
-	font-weight:700;
-	font-family: 'Montserrat', sans-serif;
-	background:#fff;
-	box-sizing:border-box;
+    position: absolute;
+    bottom: 0;
+    padding: 14px 30px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #f0f0f0;
+    text-align: left;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    box-sizing: border-box;
 }
 .header-social {
 	float:left;
@@ -890,9 +895,9 @@ header{
 	color:#000;
 	letter-spacing:1px;
 }
-.nav-holder nav li ul li a:hover {
-	text-decoration:line-through;
-}
+    .nav-holder nav li ul li a:hover {
+        text-decoration: underline;
+    }
 .nav-button-holder {
 	float:left;
 	width:100%;
@@ -1843,6 +1848,12 @@ section.md-padding .section-title {
 	float:left;
 	width:100%;
 	position:relative;
+}
+.gallery-items {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
 }
 .por-sidebar {
 	padding:0 30px;
