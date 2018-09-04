@@ -132,9 +132,14 @@
     <Content Include="js\jquery.min.js" />
     <Content Include="js\plugins.js" />
     <Content Include="js\scripts.js" />
+    <Content Include="lakeShore.html" />
+    <Content Include="mountainView.html" />
     <Content Include="php\contact.php" />
     <Content Include="doubleR.html" />
     <Content Include="portfolio-single.html" />
+    <Content Include="riverfront.html" />
+    <Content Include="madisonHills.html" />
+    <Content Include="theView.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
   <ProjectExtensions>
