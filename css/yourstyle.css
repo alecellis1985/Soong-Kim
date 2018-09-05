@@ -1,6 +1,13 @@
 /*******************************************************************************
  Add your styles here
  *******************************************************************************/
-/*ul.main {
-    height: auto!important;
-}*/
+.nav-holder nav li.main {
+    transition: all linear 0.5s;
+}
+
+ul.main {
+    transition: all linear 0.5s;
+}
+ul.sub {
+    transition: all linear 0.5s;
+}
