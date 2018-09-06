@@ -682,27 +682,7 @@ header{
 	position:relative;
 	float:left;
 }
-.logo-holder  a:before , .logo-holder  a:after {
-	content:'';
-	position:absolute;
-	width:40px;
-	height:1px;
-	top:50%;
-	margin-top:-1px;
-	right:-70px;
-	background:#666;
-}
-.logo-holder  a:after {
-	width:0;
-	background:#ccc;
-	z-index:2;
-	-webkit-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
-  	-moz-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
-  	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
-}
-.logo-holder  a:hover:after {
-	width:40px;
-}
+
     .logo-holder img {
         width: 50px;
         height: auto;
@@ -965,16 +945,27 @@ header{
 .full-screen-slider-holder {
 	margin-top:50px;
 }
+.text-center {
+    text-align: center;
+}
+
 .hero-title {
-	max-width:600px;
-	top:50%;
-	margin:0 auto;
-	position:relative;
-	z-index:4;
+    max-width: 600px;
+    top: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
 }
-.hero-title h2 , .hero-title h2 a {
-	color:#000;
-}
+    .hero-title img.mainImg {
+        width: 140px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+
+    .hero-title h2, .hero-title h2 a {
+        color: #000;
+    }
 .hero-title h2 {
 	float:left;
 	width:100%;
@@ -1382,11 +1373,24 @@ section.md-padding .section-title {
     float: left;
     max-width: 630px;
 }
+
+.section-title.aboutUs h4 {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    float: left;
+    max-width: 95%;
+    margin-bottom: 20px;
+}
 .page-title {
 	float:left;
 	width:100%;
 	padding:250px 0;
 	position:relative;
+}
+
+.page-title.aboutUs {
+    padding: 15px 0;
 }
 .page-title h2 {
 	position:absolute;

@@ -764,14 +764,12 @@ $(".nav-holder nav li.main").on("mouseenter", function () {
     $(this).find("ul.sub").css('height', 'auto');
     $(this).find("ul.main").css('display', 'block');
     $(this).find("ul.sub").css('display', 'block');
-
-
-    //$(this).find("ul.main").stop().slideDown();
-    //$(this).find("ul.sub").stop().slideDown();
-
 });
 $(".nav-holder nav li.main").on("click", function() {
-    $(this).find("ul.main").stop().slideUp();
+    $(this).find("ul.main").css('height', 'auto');
+    $(this).find("ul.sub").css('height', 'auto');
+    $(this).find("ul.main").css('display', 'block');
+    $(this).find("ul.sub").css('display', 'block');
 });
 
 function headerImgMax() {

@@ -102,6 +102,10 @@
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
     <Content Include="css\yourstyle.css" />
+    <Content Include="beaconHill.html" />
+    <Content Include="downtownReno.html" />
+    <Content Include="riverside.html" />
+    <Content Include="truckee.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\bg\1.jpg" />
     <Content Include="images\bg\long\1.jpg" />
@@ -131,7 +135,7 @@
     <Content Include="js\core.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\plugins.js" />
-    <Content Include="js\scripts.js" />
+    <Content Include="js\scripts2.js" />
     <Content Include="lakeShore.html" />
     <Content Include="mountainView.html" />
     <Content Include="php\contact.php" />
