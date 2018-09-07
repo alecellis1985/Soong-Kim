@@ -100,9 +100,9 @@
     <Content Include="contact.html" />
     <Content Include="css\plugins.css" />
     <Content Include="css\reset.css" />
-    <Content Include="css\style.css" />
-    <Content Include="css\yourstyle.css" />
+    <Content Include="css\style2.css" />
     <Content Include="beaconHill.html" />
+    <Content Include="css\yourstyle2.css" />
     <Content Include="downtownReno.html" />
     <Content Include="riverside.html" />
     <Content Include="truckee.html" />
@@ -111,7 +111,6 @@
     <Content Include="images\bg\long\1.jpg" />
     <Content Include="images\blog\users\1.jpg" />
     <Content Include="images\body-bg.png" />
-    <Content Include="images\favicon.ico" />
     <Content Include="images\folio\single\1.jpg" />
     <Content Include="images\folio\single\2.jpg" />
     <Content Include="images\folio\slider\1.jpg" />
@@ -122,11 +121,8 @@
     <Content Include="images\folio\thumbs\4.jpg" />
     <Content Include="images\folio\thumbs\5.jpg" />
     <Content Include="images\logo.jpeg" />
-    <Content Include="images\logo.png" />
     <Content Include="images\marker.jpg" />
-    <Content Include="images\marker.png" />
     <Content Include="images\small-logo.jpg" />
-    <Content Include="images\small-logo.png" />
     <Content Include="images\small_logo_1YP_icon.ico" />
     <Content Include="images\team\small\1.jpg" />
     <Content Include="images\team\small\2.jpg" />

@@ -52,7 +52,9 @@ body{
 @-o-viewport {width: device-width;}
 @-ms-viewport {width: device-width;}
 @viewport {width: device-width;}
-
+* {
+    user-select: unset !important;
+}
 /*--------------Typography--------------------------------------*/
 h1 {
 	font-size: 4.46666666667em;
@@ -738,11 +740,12 @@ header{
 	font-family: 'Montserrat', sans-serif;
 	padding-bottom:10px;
 }
-.header-contacts , .header-contacts li  , .header-social {
-	float:left;
-	width:100%;
-	text-align:left;
-}
+
+    .header-contacts, .header-contacts li, .header-social {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
 .header-contacts li  {
 	padding:5px 0;
 }
@@ -1381,6 +1384,10 @@ section.md-padding .section-title {
     float: left;
     max-width: 95%;
     margin-bottom: 20px;
+}
+.section-title.aboutUs h4 span {
+    color: #9e0000;
+    font-weight: bold;
 }
 .page-title {
 	float:left;
