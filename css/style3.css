@@ -1611,11 +1611,12 @@ section.md-padding .section-title {
 .inline-facts h6 {
     float: right;
     width: 100%;
-    font-size: 16px;
+    font-size: 19px;
     margin-top: 50px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
+
 .inline-facts .num {
 	float:left;
 	width:100%;

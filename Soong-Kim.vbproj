@@ -97,6 +97,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="azurePhase2.html" />
+    <Content Include="kileyRanch.html" />
     <Content Include="washington.html" />
     <Content Include="nevada.html" />
     <Content Include="contact.html" />
