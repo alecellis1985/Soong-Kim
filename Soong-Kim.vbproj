@@ -104,6 +104,15 @@
     <Content Include="images\beaconHill\beaconHill1Thumb.jpg" />
     <Content Include="images\beaconHill\beaconHill2.jpg" />
     <Content Include="images\beaconHill\beaconHill2Thumb.jpg" />
+    <Content Include="images\icons\custom homes 2.jpg" />
+    <Content Include="images\icons\garden style 2.jpg" />
+    <Content Include="images\icons\mixed use 2.jpg" />
+    <Content Include="images\icons\Multi tenant office and Warehouse 2.jpg" />
+    <Content Include="images\icons\Podium 2.jpg" />
+    <Content Include="images\icons\Remodel 2.jpg" />
+    <Content Include="images\icons\single family townhouse 2.jpg" />
+    <Content Include="images\icons\Tenant Improvement 2.jpg" />
+    <Content Include="images\icons\Wrap 2.jpg" />
     <Content Include="images\kileyRanch\kileyRanch1.jpg" />
     <Content Include="images\kileyRanch\kileyRanch1Thumb.jpg" />
     <Content Include="images\kileyRanch\kileyRanch2.jpg" />

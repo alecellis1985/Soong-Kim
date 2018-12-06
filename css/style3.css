@@ -1592,29 +1592,36 @@ section.md-padding .section-title {
 }
 .inline-facts {
     float: left;
-    width: 23%;
+    width: 30%;
     position: relative;
     margin: 1%;
-    height: 140px;
+    height: 250px;
+}
+
+.inline-facts img{
+    width: 100%;
 }
 .count-dec {
-	position:absolute;
-	top:-10px;
-	left:0;
-	color:#000;
-	z-index:-1;
-	opacity:0.1;
-	font-size:54px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight:700;
+    position: relative;
+    float: left;
+    top: -10px;
+    left: 0;
+    color: #000;
+    z-index: -1;
+    opacity: 0.1;
+    font-size: 54px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 19px;
+    line-height: 0.5;
+    margin-right: 1px;
 }
 .inline-facts h6 {
-    float: right;
     width: 100%;
     font-size: 19px;
-    margin-top: 50px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+    padding-left: 52px;
 }
 
 .inline-facts .num {
@@ -3137,10 +3144,10 @@ header{
 	width:50% !important;
 	margin-bottom:20px;
 }
-.gallery-item {
-	width: 100% !important;
 
-}
+    .gallery-item {
+        width: 100% !important;
+    }
 .grid-small-pad .grid-item-holder {
     padding: 7px 0 7px 0;
 }
