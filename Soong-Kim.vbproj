@@ -127,11 +127,11 @@
     <Content Include="images\mountainView\MountainView3Thumb.jpg" />
     <Content Include="images\mountainView\MountainView4.jpg" />
     <Content Include="images\mountainView\MountainView4Thumb.jpg" />
-    <Content Include="images\office\1.JPG" />
-    <Content Include="images\office\2.JPG" />
-    <Content Include="images\office\3.JPG" />
-    <Content Include="images\office\4.JPG" />
-    <Content Include="images\office\5.JPG" />
+    <Content Include="images\office\1.jpg" />
+    <Content Include="images\office\2.jpg" />
+    <Content Include="images\office\3.jpg" />
+    <Content Include="images\office\4.jpg" />
+    <Content Include="images\office\5.jpg" />
     <Content Include="images\riverside\tequesquite.jpg" />
     <Content Include="images\riverside\tequesquiteThumb.jpg" />
     <Content Include="images\truckee\truckee.jpg" />
