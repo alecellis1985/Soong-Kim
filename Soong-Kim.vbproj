@@ -104,6 +104,10 @@
     <Content Include="images\beaconHill\beaconHill1Thumb.jpg" />
     <Content Include="images\beaconHill\beaconHill2.jpg" />
     <Content Include="images\beaconHill\beaconHill2Thumb.jpg" />
+    <Content Include="images\beaconHill\beaconHill3.jpg" />
+    <Content Include="images\beaconHill\beaconHill3Thumb.jpg" />
+    <Content Include="images\beaconHill\beaconHill4.jpg" />
+    <Content Include="images\beaconHill\beaconHill4Thumb.jpg" />
     <Content Include="images\icons\custom homes 2.jpg" />
     <Content Include="images\icons\garden style 2.jpg" />
     <Content Include="images\icons\mixed use 2.jpg" />
