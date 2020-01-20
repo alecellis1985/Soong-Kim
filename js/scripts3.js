@@ -15,7 +15,8 @@ function initFirenze() {
         Intense(a);
     }
     d();
-	// magnificPopup ------------------
+    // magnificPopup ------------------
+   
     $(".image-popup").magnificPopup({
         type: "image",
         closeOnContentClick: false,
@@ -50,6 +51,46 @@ function initFirenze() {
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+
+
+    $('.magnific-all').each(function() {
+        var $container = $(this);
+        var $imageLinks = $container.find('.item');
+      
+        var items = [];
+        $imageLinks.each(function() {
+            var $item = $(this);
+          var type = 'image';
+          if ($item.hasClass('magnific-youtube')) {
+            type = 'iframe';
+          }
+          var magItem = {
+            src: $item.attr('href'),
+            type: type
+          };
+          items.push(magItem);
+          });
+      
+        $imageLinks.magnificPopup({
+          mainClass: 'mfp-fade',
+          items: items,
+          gallery:{
+              enabled:true,
+              tPrev: $(this).data('prev-text'),
+              tNext: $(this).data('next-text')
+          },
+          type: 'image',
+          callbacks: {
+            beforeOpen: function() {
+              var index = $imageLinks.index(this.st.el);
+              if (-1 !== index) {
+                this.goTo(index);
+              }
+            }
+          }
+        });
+      });
+      
     var mc = new Hammer(document.body);
     mc.on("swipeleft", function() {
         $(".mfp-arrow-left").magnificPopup("prev");
