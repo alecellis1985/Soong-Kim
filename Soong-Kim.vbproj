@@ -189,6 +189,7 @@
     <Content Include="images\truckee\truckee.jpg" />
     <Content Include="images\truckee\truckeeThumb.jpg" />
     <Content Include="kileyRanch.html" />
+    <Content Include="ParkPlace.html" />
     <Content Include="RichmondPointe.html" />
     <Content Include="Sanctuary.html" />
     <Content Include="washington.html" />
