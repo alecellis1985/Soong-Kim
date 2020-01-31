@@ -107,7 +107,6 @@
     <Content Include="downtownReno2.html" />
     <Content Include="favicon.ico" />
     <Content Include="Fernley.html" />
-    <Content Include="Fernley2.html" />
     <Content Include="idaho.html" />
     <Content Include="images\azure\azure.jpg" />
     <Content Include="images\azure\azureThumb.jpg" />
@@ -131,6 +130,7 @@
     <Content Include="images\DoubleR\Exterior_Clubhouse_Render_R0.jpg" />
     <Content Include="images\DoubleR\Interior_Clubhouse_Render_R0.jpg" />
     <Content Include="images\DoubleR\Rooftop_Terrace_Render_R0.jpg" />
+    <Content Include="images\DoubleR\thumbExterior.jpg" />
     <Content Include="images\DoubleR\Unit_Render_R0.jpg" />
     <Content Include="images\DowntownReno1\2nd_Lake_Exterior_2.jpg" />
     <Content Include="images\DowntownReno1\Animation_2nd_Lake_Op4.mp4" />
@@ -177,10 +177,13 @@
     <Content Include="images\office\5.jpg" />
     <Content Include="images\ParkPlace\Boise_FrontView_High_OP2.jpg" />
     <Content Include="images\ParkPlace\Boise_RearView_High_OP2.jpg" />
+    <Content Include="images\ParkPlace\RearViewThumb.jpg" />
     <Content Include="images\richmondPointe\1-min.jpg" />
     <Content Include="images\richmondPointe\1.jpg" />
     <Content Include="images\richmondPointe\2-min.jpg" />
     <Content Include="images\richmondPointe\3-min.jpg" />
+    <Content Include="images\richmondPointe\Thumb.jpg" />
+    <Content Include="images\richmondPointe\video.JPG" />
     <Content Include="images\riverside\tequesquite.jpg" />
     <Content Include="images\riverside\tequesquiteThumb.jpg" />
     <Content Include="images\sanctuary\E1-1.jpg" />
@@ -192,6 +195,7 @@
     <Content Include="ParkPlace.html" />
     <Content Include="RichmondPointe.html" />
     <Content Include="Sanctuary.html" />
+    <Content Include="SunriseTrails.html" />
     <Content Include="washington.html" />
     <Content Include="nevada.html" />
     <Content Include="contact.html" />
