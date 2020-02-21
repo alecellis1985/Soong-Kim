@@ -305,10 +305,10 @@ blockquote p {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-size: inherit;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-origin: content-box;
+	background-origin: content-box;
 }
 
 .respimg {
@@ -3228,6 +3228,9 @@ header{
 }	
 }
 @media only screen and  (max-width: 540px) {
+	.hero-grid {
+		width: 100%;
+	}
     .details-box h3 {
         font-size: 24px;
     }
@@ -3261,6 +3264,7 @@ header {
 	background-attachment: scroll !important;
 	-webkit-background-size:cover;
 	background-position:center;
+	background-size: contain;
 }
 }
 
